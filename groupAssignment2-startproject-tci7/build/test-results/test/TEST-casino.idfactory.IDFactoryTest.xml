@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.idfactory.IDFactoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:25" hostname="DESKTOP-8SF670N" time="0.01">
+  <properties/>
+  <testcase name="GenerateID_ShouldReturnCorrectIDTypeAccordingOnString" classname="casino.idfactory.IDFactoryTest" time="0.001"/>
+  <testcase name="[0] betid (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.0"/>
+  <testcase name="[1] bettingroundid (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.0"/>
+  <testcase name="[2] cardid (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.0"/>
+  <testcase name="[3] gamingmachineid (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.0"/>
+  <testcase name="[4] generalid (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.001"/>
+  <testcase name="[5] id (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.001"/>
+  <testcase name="[6] 123 (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.001"/>
+  <testcase name="[7]  (GenerateID_ShouldReturnNullGivenIncorrectIDTypeString)" classname="casino.idfactory.IDFactoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.cashier.CashierTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:17:59" hostname="DESKTOP-8SF670N" time="1.087">
+  <properties/>
+  <testcase name="distributeGamblerCard_CardAreDistributedByACashierToAGambler_CardAreLogged" classname="casino.cashier.CashierTest" time="0.891"/>
+  <testcase name="[0] MoneyAmount, MoneyAmount, MoneyAmount (checkIfBetIsValid_shouldCheckIfBetMadeWithThePlayercardIsValid_TheMoneyAmountOfTheBetIsSubtractedFromTheMoneyAmountBelongingToTheCard)" classname="casino.cashier.CashierTest" time="0.114"/>
+  <testcase name="[1] MoneyAmount, MoneyAmount, MoneyAmount (checkIfBetIsValid_shouldCheckIfBetMadeWithThePlayercardIsValid_TheMoneyAmountOfTheBetIsSubtractedFromTheMoneyAmountBelongingToTheCard)" classname="casino.cashier.CashierTest" time="0.002"/>
+  <testcase name="[2] MoneyAmount, MoneyAmount, MoneyAmount (checkIfBetIsValid_shouldCheckIfBetMadeWithThePlayercardIsValid_TheMoneyAmountOfTheBetIsSubtractedFromTheMoneyAmountBelongingToTheCard)" classname="casino.cashier.CashierTest" time="0.002"/>
+  <testcase name="[0] MoneyAmount (addInvalidAmount_shouldThrowInvalidAmountException)" classname="casino.cashier.CashierTest" time="0.018"/>
+  <testcase name="[1] MoneyAmount (addInvalidAmount_shouldThrowInvalidAmountException)" classname="casino.cashier.CashierTest" time="0.001"/>
+  <testcase name="[2] MoneyAmount (addInvalidAmount_shouldThrowInvalidAmountException)" classname="casino.cashier.CashierTest" time="0.002"/>
+  <testcase name="[3] null (addInvalidAmount_shouldThrowInvalidAmountException)" classname="casino.cashier.CashierTest" time="0.001"/>
+  <testcase name="[0] MoneyAmount, MoneyAmount, MoneyAmount (checkIfBetIsValid_shouldThrowBetNotExceptedException)" classname="casino.cashier.CashierTest" time="0.002"/>
+  <testcase name="[1] MoneyAmount, MoneyAmount, MoneyAmount (checkIfBetIsValid_shouldThrowBetNotExceptedException)" classname="casino.cashier.CashierTest" time="0.002"/>
+  <testcase name="[2] MoneyAmount, MoneyAmount, MoneyAmount (checkIfBetIsValid_shouldThrowBetNotExceptedException)" classname="casino.cashier.CashierTest" time="0.002"/>
+  <testcase name="[0] MoneyAmount, MoneyAmount, MoneyAmount (returnGamblerCard_WhenHandingInTheCardAtABankTeller_AllBetIDsOnAndTheTotalAmountOfMoneyCreditAreLoggedAndAreChangedToZero)" classname="casino.cashier.CashierTest" time="0.004"/>
+  <testcase name="[1] MoneyAmount, MoneyAmount, MoneyAmount (returnGamblerCard_WhenHandingInTheCardAtABankTeller_AllBetIDsOnAndTheTotalAmountOfMoneyCreditAreLoggedAndAreChangedToZero)" classname="casino.cashier.CashierTest" time="0.004"/>
+  <testcase name="[2] MoneyAmount, MoneyAmount, MoneyAmount (returnGamblerCard_WhenHandingInTheCardAtABankTeller_AllBetIDsOnAndTheTotalAmountOfMoneyCreditAreLoggedAndAreChangedToZero)" classname="casino.cashier.CashierTest" time="0.004"/>
+  <testcase name="[0] MoneyAmount, MoneyAmount, MoneyAmount (addAmount_shouldAddAmountToThePlayersCard)" classname="casino.cashier.CashierTest" time="0.008"/>
+  <testcase name="[1] MoneyAmount, MoneyAmount, MoneyAmount (addAmount_shouldAddAmountToThePlayersCard)" classname="casino.cashier.CashierTest" time="0.003"/>
+  <testcase name="[2] MoneyAmount, MoneyAmount, MoneyAmount (addAmount_shouldAddAmountToThePlayersCard)" classname="casino.cashier.CashierTest" time="0.002"/>
+  <system-out><![CDATA[0
+0
+0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

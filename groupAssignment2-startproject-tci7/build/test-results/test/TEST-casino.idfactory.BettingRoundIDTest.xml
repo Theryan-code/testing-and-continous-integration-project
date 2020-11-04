@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.idfactory.BettingRoundIDTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:13" hostname="DESKTOP-8SF670N" time="0.005">
+  <properties/>
+  <testcase name="[0] ID: 66879f89-6441-435f-a5c6-727965563c342020-10-30T09:18:08.060757300Z, ID: 802494c7-8236-4430-b736-02d31aded7492020-10-30T09:18:07.059118200Z, ID: 41a0270c-e83f-4a2d-897b-b8f9c4224f492020-10-30T09:18:09.063134Z (testsForUnsortedComparables)" classname="casino.idfactory.BettingRoundIDTest" time="0.0"/>
+  <testcase name="[0] ID: 62167140-582b-463d-bb89-2b654cb30c5e2020-10-30T09:18:10.064483Z, ID: 62167140-582b-463d-bb89-2b654cb30c5e2020-10-30T09:18:10.064483Z, ID: 62167140-582b-463d-bb89-2b654cb30c5e2020-10-30T09:18:10.064483Z (testsForEqualComparables)" classname="casino.idfactory.BettingRoundIDTest" time="0.0"/>
+  <testcase name="[0] ID: 0d7d669d-e486-4e37-9732-e7e4113586972020-10-30T09:18:10.064483Z, ID: c3374fc5-1d1b-477c-9951-21a52fac04652020-10-30T09:18:10.064483Z, ID: 62f03506-79cc-4d14-b8a7-bf8ddd763a0b2020-10-30T09:18:10.064483Z (testIfObjectsAreUnEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.BettingRoundIDTest" time="0.0"/>
+  <testcase name="[1] ID: 3d601b64-d7b8-4b27-9942-70efde39ae592020-10-30T09:18:10.064483Z, Object, ID: eaa8eabd-2724-4f70-a367-d8ec05ebd4622020-10-30T09:18:10.064483Z (testIfObjectsAreUnEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.BettingRoundIDTest" time="0.0"/>
+  <testcase name="[0] ID: c0b8abee-8cef-490c-93cc-d2ee9a51114f2020-10-30T09:18:10.064483Z, ID: 8cd8cf92-dc1e-4f87-9cf9-a563ab6f304c2020-10-30T09:18:11.065795400Z, ID: fddabc09-51da-4bc5-8c41-af2298c287592020-10-30T09:18:12.066934400Z (testsForSortedComparables)" classname="casino.idfactory.BettingRoundIDTest" time="0.0"/>
+  <testcase name="[0] ID: 76e349a0-1d3e-4257-b8a7-5f0dd0b394502020-10-30T09:18:13.068571800Z, ID: 76e349a0-1d3e-4257-b8a7-5f0dd0b394502020-10-30T09:18:13.068571800Z, ID: 76e349a0-1d3e-4257-b8a7-5f0dd0b394502020-10-30T09:18:13.068571800Z (testIfObjectsAreEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.BettingRoundIDTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

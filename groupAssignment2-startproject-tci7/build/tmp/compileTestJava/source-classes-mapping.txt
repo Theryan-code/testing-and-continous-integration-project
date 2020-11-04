@@ -1,0 +1,30 @@
+casino/game/GameRuleTest.java
+ casino.game.GameRuleTest
+casino/idfactory/CompareToUtils.java
+ casino.idfactory.CompareToUtils
+casino/gamingmachine/GamingMachineTest.java
+ casino.gamingmachine.GamingMachineTest
+casino/idfactory/HashCodeUtils.java
+ casino.idfactory.HashCodeUtils
+casino/idfactory/BetIDTest.java
+ casino.idfactory.BetIDTest
+casino/game/BettingRoundAssert.java
+ casino.game.BettingRoundAssert
+casino/cashier/CashierTest.java
+ casino.cashier.CashierTest
+casino/game/DefaultGameTest.java
+ casino.game.DefaultGameTest
+casino/idfactory/IDFactoryTest.java
+ casino.idfactory.IDFactoryTest
+casino/cashier/GamblerCardTest.java
+ casino.cashier.GamblerCardTest
+casino/idfactory/EqualsUtils.java
+ casino.idfactory.EqualsUtils
+casino/game/BettingRoundTest.java
+ casino.game.BettingRoundTest
+casino/idfactory/BettingRoundIDTest.java
+ casino.idfactory.BettingRoundIDTest
+casino/idfactory/GamingMachineIDTest.java
+ casino.idfactory.GamingMachineIDTest
+casino/idfactory/CardIDTest.java
+ casino.idfactory.CardIDTest

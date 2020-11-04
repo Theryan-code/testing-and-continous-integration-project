@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.gamingmachine.GamingMachineTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:00" hostname="DESKTOP-8SF670N" time="0.111">
+  <properties/>
+  <testcase name="DisconnectCard_ShouldNotThrowAnyExceptionAndSetGamblreCardAttributeToNullWhenOpenBetsDoesNotExist" classname="casino.gamingmachine.GamingMachineTest" time="0.049"/>
+  <testcase name="PlaceBet_ShouldThrowNoPlayerCardExceptionIfNoGamblerCardIsConnectedWhenMakingBet" classname="casino.gamingmachine.GamingMachineTest" time="0.005"/>
+  <testcase name="PlaceBet_ShouldStoreBetAndReturnTrueIfActiveBettingRoundExists" classname="casino.gamingmachine.GamingMachineTest" time="0.006"/>
+  <testcase name="ConnectCard_ShouldSetGamblerCardAttributeToEqualToTheGamblerConnected" classname="casino.gamingmachine.GamingMachineTest" time="0.023"/>
+  <testcase name="GetGamingMachineID_ShouldReturnGamingMachineIDEqualToGamingMachineIDAssigned" classname="casino.gamingmachine.GamingMachineTest" time="0.001"/>
+  <testcase name="AcceptWinner_ShouldClearOpenBetsMade" classname="casino.gamingmachine.GamingMachineTest" time="0.017"/>
+  <testcase name="PlaceBet_ShouldCallAcceptBetBetIfBetIsValid" classname="casino.gamingmachine.GamingMachineTest" time="0.002"/>
+  <testcase name="AcceptWinner_ShouldCallAddAmountIfWinnerIsInThisGamingMachine" classname="casino.gamingmachine.GamingMachineTest" time="0.003"/>
+  <testcase name="DisconnectCard_ShouldThrowCurrentBetMadeExceptionAndNotSetGamblerCardAttributeToNullWhenOpenBetsExist" classname="casino.gamingmachine.GamingMachineTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

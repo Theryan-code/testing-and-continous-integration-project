@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.idfactory.CardIDTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:19" hostname="DESKTOP-8SF670N" time="0.005">
+  <properties/>
+  <testcase name="[0] ID: 4632b82f-d083-4a85-8e56-98265f1db2f92020-10-30T09:18:14.083689700Z, ID: 49816b4d-0173-4bfd-afe9-a8e47c1ade1c2020-10-30T09:18:13.080565200Z, ID: c41027b5-f9da-4bce-bff6-49399e34816d2020-10-30T09:18:15.085185900Z (testsForUnsortedComparables)" classname="casino.idfactory.CardIDTest" time="0.0"/>
+  <testcase name="[0] ID: 7ea627af-f5c3-48f9-a7e7-eb97b8d7db702020-10-30T09:18:16.089112200Z, ID: 7ea627af-f5c3-48f9-a7e7-eb97b8d7db702020-10-30T09:18:16.089112200Z, ID: 7ea627af-f5c3-48f9-a7e7-eb97b8d7db702020-10-30T09:18:16.089112200Z (testsForEqualComparables)" classname="casino.idfactory.CardIDTest" time="0.001"/>
+  <testcase name="[0] ID: ecfb8be8-a5de-4e2d-b126-9690cfa1908d2020-10-30T09:18:16.089112200Z, ID: 72c15006-2daf-4b3d-be82-8d4aab1e4b532020-10-30T09:18:16.089112200Z, ID: 8b990118-ae24-493f-a0c1-a674a9172c0e2020-10-30T09:18:16.089112200Z (testIfObjectsAreUnEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.CardIDTest" time="0.0"/>
+  <testcase name="[1] ID: 7324ec37-5f78-4501-8ece-16a4897776142020-10-30T09:18:16.089112200Z, Object, ID: 62b335c1-e72a-462b-a0d6-cff7d38f34152020-10-30T09:18:16.089112200Z (testIfObjectsAreUnEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.CardIDTest" time="0.0"/>
+  <testcase name="[0] ID: b5f6cc70-7b1f-471b-93c4-8b3a0ddb53242020-10-30T09:18:16.089112200Z, ID: 3f770dfe-7b4e-4b21-ad6e-2a748c6677922020-10-30T09:18:17.091045300Z, ID: d41ce7a6-03fd-428e-b268-ee36c130e1f62020-10-30T09:18:18.093743200Z (testsForSortedComparables)" classname="casino.idfactory.CardIDTest" time="0.0"/>
+  <testcase name="[0] ID: 27132a2a-4e74-4064-92a8-9abab00d22f52020-10-30T09:18:19.094239800Z, ID: 27132a2a-4e74-4064-92a8-9abab00d22f52020-10-30T09:18:19.094239800Z, ID: 27132a2a-4e74-4064-92a8-9abab00d22f52020-10-30T09:18:19.094239800Z (testIfObjectsAreEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.CardIDTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

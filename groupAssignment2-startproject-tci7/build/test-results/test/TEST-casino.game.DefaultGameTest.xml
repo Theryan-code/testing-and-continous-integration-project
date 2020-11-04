@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.game.DefaultGameTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:00" hostname="DESKTOP-8SF670N" time="0.028">
+  <properties/>
+  <testcase name="isBettingRoundFinished_shouldIndicateIfARoundIsFinished" classname="casino.game.DefaultGameTest" time="0.016"/>
+  <testcase name="determineWinner_shouldDetermineAWinnerWhenTheMethodOfGameRuleIsCalled" classname="casino.game.DefaultGameTest" time="0.002"/>
+  <testcase name="determineWinner_shouldEndTheBettingRound" classname="casino.game.DefaultGameTest" time="0.001"/>
+  <testcase name="acceptBet_shouldPlaceTheBetInBettingRound" classname="casino.game.DefaultGameTest" time="0.0"/>
+  <testcase name="startBettingRound_shouldStartLoggingTheBettingRound" classname="casino.game.DefaultGameTest" time="0.001"/>
+  <testcase name="startBettingRound_shouldCreateABettingRoundAndAddItToTheList" classname="casino.game.DefaultGameTest" time="0.0"/>
+  <testcase name="determineWinner_shouldStartANewRound" classname="casino.game.DefaultGameTest" time="0.0"/>
+  <testcase name="determineWinner_shouldSendBetsForLogging" classname="casino.game.DefaultGameTest" time="0.002"/>
+  <testcase name="determineWinner_shouldSendNotificationsToAllGamingMachines" classname="casino.game.DefaultGameTest" time="0.0"/>
+  <testcase name="startBettingRound_shouldGetBetTokenFromBetTokenAuthority" classname="casino.game.DefaultGameTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+
+}
+
+group 'TCI'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'pl.pragmatists', name: 'JUnitParams', version: '1.0.4'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-core', version: '2.2'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.5.10'
+    testImplementation "org.assertj:assertj-core:3.17.2"
+    testCompile group: 'org.easytesting', name: 'fest-assert', version: '1.4'
+}
+
+jacoco {
+    toolVersion = "0.8.5"
+    reportsDir = file("$buildDir/jacoco")
+}
+
+test {
+    finalizedBy jacocoTestReport
+}
+jacocoTestReport {
+    dependsOn test
+}

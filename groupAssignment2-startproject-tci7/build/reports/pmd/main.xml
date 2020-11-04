@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-10-24T05:01:30.377">
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\Casino.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Best Practices" package="casino" class="Casino" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'casino.bet.Bet'
+</violation>
+<violation beginline="26" endline="26" begincolumn="36" endcolumn="51" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino" class="Casino" variable="bettingAuthority" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="27" endline="27" begincolumn="28" endcolumn="33" rule="UnusedPrivateField" ruleset="Best Practices" package="casino" class="Casino" variable="teller" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'teller'.
+</violation>
+<violation beginline="27" endline="27" begincolumn="28" endcolumn="33" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino" class="Casino" variable="teller" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="28" endline="28" begincolumn="32" endcolumn="36" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino" class="Casino" variable="games" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\bet\Bet.java">
+<violation beginline="10" endline="10" begincolumn="19" endcolumn="23" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.bet" class="Bet" variable="betID" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="25" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.bet" class="Bet" variable="moneyAmount" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\bet\BetResult.java">
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.bet" class="BetResult" variable="winningBet" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="25" endcolumn="33" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.bet" class="BetResult" variable="amountWon" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\bet\MoneyAmount.java">
+<violation beginline="10" endline="10" begincolumn="18" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.bet" class="MoneyAmount" variable="amountInCents" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="22" endcolumn="29" rule="UnusedPrivateField" ruleset="Best Practices" package="casino.bet" class="MoneyAmount" variable="currency" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'currency'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="22" endcolumn="29" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.bet" class="MoneyAmount" variable="currency" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\cashier\BetNotExceptedException.java">
+<violation beginline="6" endline="25" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="casino.cashier" class="BetNotExceptedException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\cashier\Cashier.java">
+<violation beginline="10" endline="10" begincolumn="41" endcolumn="56" rule="UnusedFormalParameter" ruleset="Best Practices" package="casino.cashier" class="Cashier" method="Cashier" variable="loggingAuthority" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'loggingAuthority'.
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\cashier\InvalidAmountException.java">
+<violation beginline="6" endline="26" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="casino.cashier" class="InvalidAmountException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\game\BettingRound.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Best Practices" package="casino.game" class="BettingRound" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'gamblingauthoritiy.IBetLoggingAuthority'
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Best Practices" package="casino.game" class="BettingRound" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.HashSet'
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\game\NoBetsMadeException.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Best Practices" package="casino.game" class="NoBetsMadeException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.security.PrivilegedActionException'
+</violation>
+<violation beginline="7" endline="82" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="casino.game" class="NoBetsMadeException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\game\NoCurrentRoundException.java">
+<violation beginline="6" endline="25" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="casino.game" class="NoCurrentRoundException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\gamingmachine\CurrentBetMadeException.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Best Practices" package="casino.gamingmachine" class="CurrentBetMadeException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.security.PrivilegedActionException'
+</violation>
+<violation beginline="8" endline="83" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="casino.gamingmachine" class="CurrentBetMadeException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\gamingmachine\NoPlayerCardException.java">
+<violation beginline="5" endline="24" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="casino.gamingmachine" class="NoPlayerCardException" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\casino\idfactory\GeneralID.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Best Practices" package="casino.idfactory" class="GeneralID" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.Objects'
+</violation>
+<violation beginline="11" endline="22" begincolumn="17" endcolumn="1" rule="AbstractClassWithoutAbstractMethod" ruleset="Best Practices" package="casino.idfactory" class="GeneralID" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#abstractclasswithoutabstractmethod" priority="3">
+This abstract class does not have any abstract methods
+</violation>
+<violation beginline="12" endline="12" begincolumn="24" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="casino.idfactory" class="GeneralID" variable="uniqueID" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'uniqueID'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="24" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.idfactory" class="GeneralID" variable="uniqueID" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="13" endline="13" begincolumn="27" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="casino.idfactory" class="GeneralID" variable="timeStamp" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'timeStamp'.
+</violation>
+<violation beginline="13" endline="13" begincolumn="27" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="casino.idfactory" class="GeneralID" variable="timeStamp" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\gamblingauthoritiy\BetToken.java">
+<violation beginline="17" endline="17" begincolumn="28" endcolumn="41" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="gamblingauthoritiy" class="BetToken" variable="bettingRoundID" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="18" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="gamblingauthoritiy" class="BetToken" variable="uniqueTokenID" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="19" endline="19" begincolumn="21" endcolumn="32" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="gamblingauthoritiy" class="BetToken" variable="creationTime" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="F:\Believe and you can do IT TCI\tci-gd\groupAssignment2-startproject-tci7\src\main\java\gamblingauthoritiy\BetTokenAuthority.java">
+<violation beginline="14" endline="22" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="gamblingauthoritiy" class="BetTokenAuthority" method="getBetToken" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getBetToken(BettingRoundID)' is missing an @Override annotation.
+</violation>
+<violation beginline="25" endline="28" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="gamblingauthoritiy" class="BetTokenAuthority" method="getRandomInteger" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getRandomInteger(BetToken)' is missing an @Override annotation.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.idfactory.GamingMachineIDTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:25" hostname="DESKTOP-8SF670N" time="0.003">
+  <properties/>
+  <testcase name="[0] ID: 8f2b5f26-b111-48d6-9fe4-3d5ff2e26a3d2020-10-30T09:18:20.107594800Z, ID: f54c8d4f-f79d-4524-8500-71d533da6b9e2020-10-30T09:18:19.106131700Z, ID: a14dca95-3c9a-416d-85c9-252e34e5eed82020-10-30T09:18:21.108882800Z (testsForUnsortedComparables)" classname="casino.idfactory.GamingMachineIDTest" time="0.0"/>
+  <testcase name="[0] ID: 588dc143-67e7-4351-adb4-c2598b0733a12020-10-30T09:18:22.110441800Z, ID: 588dc143-67e7-4351-adb4-c2598b0733a12020-10-30T09:18:22.110441800Z, ID: 588dc143-67e7-4351-adb4-c2598b0733a12020-10-30T09:18:22.110441800Z (testsForEqualComparables)" classname="casino.idfactory.GamingMachineIDTest" time="0.0"/>
+  <testcase name="[0] ID: a3387727-d5a0-411e-bf5a-3cf08399f1922020-10-30T09:18:22.110441800Z, ID: 4452f8ef-e436-43aa-a202-8cc1d50e56d02020-10-30T09:18:22.110441800Z, ID: 249a6393-5e8c-466e-a090-e10b53ed25e32020-10-30T09:18:22.110441800Z (testIfObjectsAreUnEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.GamingMachineIDTest" time="0.0"/>
+  <testcase name="[1] ID: 30e1fd47-5c6c-4f45-a446-3ef95dd401f22020-10-30T09:18:22.110441800Z, Object, ID: c417f02a-9150-44c2-8612-48886cd03a9f2020-10-30T09:18:22.110441800Z (testIfObjectsAreUnEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.GamingMachineIDTest" time="0.0"/>
+  <testcase name="[0] ID: 1300b6a6-5759-4c4b-8c4e-0dc3e2b01c8b2020-10-30T09:18:22.110441800Z, ID: 776159b2-2cbf-49d7-b1eb-c1ab45d2c0e72020-10-30T09:18:23.111459100Z, ID: 45d33d70-8d46-4d8e-bb6b-ff83185bb5d82020-10-30T09:18:24.111943900Z (testsForSortedComparables)" classname="casino.idfactory.GamingMachineIDTest" time="0.001"/>
+  <testcase name="[0] ID: 2b6fa179-a43d-45a8-b449-662dc07023af2020-10-30T09:18:25.115943900Z, ID: 2b6fa179-a43d-45a8-b449-662dc07023af2020-10-30T09:18:25.115943900Z, ID: 2b6fa179-a43d-45a8-b449-662dc07023af2020-10-30T09:18:25.115943900Z (testIfObjectsAreEqualAccordingToEqualsAndHashcodeMethod)" classname="casino.idfactory.GamingMachineIDTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

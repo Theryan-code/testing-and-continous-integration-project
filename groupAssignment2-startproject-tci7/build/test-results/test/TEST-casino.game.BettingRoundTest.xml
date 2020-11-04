@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.game.BettingRoundTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:00" hostname="DESKTOP-8SF670N" time="0.072">
+  <properties/>
+  <testcase name="placeBet_shouldAddABetToTheCurrentBettinground" classname="casino.game.BettingRoundTest" time="0.053"/>
+  <testcase name="getBetToken_shouldReturnBetTokenFromThisBettingRound" classname="casino.game.BettingRoundTest" time="0.01"/>
+  <testcase name="placeInvalidBet_shouldThrowIllegalArgumentException" classname="casino.game.BettingRoundTest" time="0.001"/>
+  <testcase name="numberOFBetsMade_shouldReturnNumberOfBetsMadeInTheBettingRound" classname="casino.game.BettingRoundTest" time="0.003"/>
+  <testcase name="getBettingRoundID_shouldGetCurrentBettingRoundId" classname="casino.game.BettingRoundTest" time="0.002"/>
+  <testcase name="[0] [Mock for Bet, hashCode: 349230553, Mock for Bet, hashCode: 380929998, Mock for Bet, hashCode: 304908961] (getAllBetsMade_shouldReturnSetOfAllBetsMadeInThisBettingRound)" classname="casino.game.BettingRoundTest" time="0.001"/>
+  <system-out><![CDATA[1
+1
+2
+1
+2
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

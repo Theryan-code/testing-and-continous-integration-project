@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="casino.cashier.GamblerCardTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-30T09:18:00" hostname="DESKTOP-8SF670N" time="0.133">
+  <properties/>
+  <testcase name="generateNewBetID_shouldGenerateABetIDAndAddItToTheListOfBetIds" classname="casino.cashier.GamblerCardTest" time="0.11"/>
+  <testcase name="[0] [Mock for BetID, hashCode: 92544512, Mock for BetID, hashCode: 441408137, Mock for BetID, hashCode: 181609757] (getNumberOfBetIDs_shouldReturnAnIntIndicatingTheNumberOfIdsStoredOnTheCard)" classname="casino.cashier.GamblerCardTest" time="0.0"/>
+  <testcase name="getCardID_shouldReturnTheIdOfTheCard" classname="casino.cashier.GamblerCardTest" time="0.001"/>
+  <testcase name="[0] [Mock for BetID, hashCode: 92544512, Mock for BetID, hashCode: 441408137, Mock for BetID, hashCode: 181609757] (returnBetIDsAndClearCard_shouldClearAllGeneratedIdsByTheCardAfterReturningThem)" classname="casino.cashier.GamblerCardTest" time="0.017"/>
+  <testcase name="[0] [Mock for BetID, hashCode: 92544512, Mock for BetID, hashCode: 441408137, Mock for BetID, hashCode: 181609757] (returnBetIDs_shouldReturnAllBetIdsGeneratedByTheCard)" classname="casino.cashier.GamblerCardTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
